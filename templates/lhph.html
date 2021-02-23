@@ -1,0 +1,57 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hoppers</title>
+        <style>
+            article{
+            display:flex;
+            flex-flow:row wrap;
+            justify-content:center;
+            margin:0px 5px;
+            }
+            body{
+            color:ivory;
+            font-size:22px;
+            }
+            .s1{
+                width:40%;
+                 }
+
+        </style>
+</head>
+<body style="background-image:url({% static 'images/bg1.jpg' %})">
+<h1 style="text-align: center">Leaf Hoppers and Plant Hoppers</h1>
+<article>
+<section class="s1">
+<img src="{% static 'images/rice/lhph.jpg' %}"  width="300" height="350">
+</section>
+<section class="s1" >
+    <h2 style="text-align: left; color:lightgreen">Introduction</h2>
+    <p>Numerous species of leafhoppers and planthoppers are found in the world, and many of them have a broad host list (for example, the potato leafhopper, Empoasca fabae, has over 100 host plants). They feed on foliage and shoots of many different plant species by piercing the plant cells and sucking out the contents.</p>
+
+    <h2 style="text-align: left; color:lightgreen">Symptoms</h2>
+    <ul >
+        <li>Plants may show no symptoms of leafhopper of planthopper damage.</li>
+        <li>Feeding punctures can leave the plants susceptible to bacterial or fungal infections.</li>
+        <li>Insects transmit many rice viruses.</li>
+        <li>If infestations is severe, insects may cause plant to completely dry out.</li>
+        <li>Adults insects are pale green or brown winged insects with piercing-sucking mouthparts</li>
+    </ul>
+    <h2 style="text-align: left; color:red">Control Measures and Nutrient recommendation</h2>
+    <ul >
+        <li>Rotating crop for a period of one year is an effective and economical method of controlling hopper numbers.</li>
+        <li>Natural enemies and predators are often very successful at controlling hoppers and should be conserved by avoiding inappropriate use of insecticides which can damage their populations.</li>
+        <li>Planting resistant varieties is a very effective control method.</li>
+        <li>Chemical control with an appropriate insecticide may be necessary but should only be applied if the insects have reached an economic threshold</li>
+
+    </ul>
+
+</section>
+</article>
+</body>
+
+
+
+</html>

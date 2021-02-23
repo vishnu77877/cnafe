@@ -1,0 +1,59 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Eyespot</title>
+        <style>
+            article{
+            display:flex;
+            flex-flow:row wrap;
+            justify-content:center;
+            margin:0px 5px;
+            }
+            body{
+            color:ivory;
+            font-size:22px;
+            }
+            .s1{
+                width:40%;
+                 }
+
+        </style>
+</head>
+<body style="background-image:url({% static 'images/bg1.jpg' %})">
+<h1 style="text-align: center">Eyespot</h1>
+<article>
+<section class="s1">
+<img src="{% static 'images/wheat/es.jpg' %}"  width="300" height="350">
+</section>
+<section class="s1" >
+    <h2 style="text-align: left; color:lightgreen">Introduction</h2>
+    <p>Eyespot, also called strawbreaker foot rot, can cause yield losses up to 50%. This disease is caused by the pathogens Oculimacula acuformis and O. yallundae. Winter wheat is affected more than spring wheat because environmental conditions are more conducive. Symptoms appear on stems directly above or below the soil surface.</p>
+
+    <h2 style="text-align: left; color:lightgreen">Symptoms</h2>
+    <ul >
+        <li>Although severe and early attacks of eyespot can kill seedlings outright, eyespot symptoms typically first become visible in early spring.</li>
+        <li> Symptoms appear as a brown smudge at the stem base.</li>
+        <li> They have a diffuse margin and appear on one side of the outer leaf sheath.</li>
+        <li> Symptoms can be confused with sharp eyespot and fusarium foot rot.</li>
+        <li> However, as eyespot is much more important than these diseases, correct identification is important.</li>
+        <li>As the season progresses, symptoms become more distinct with an eye-shaped lesion with a dark, diffuse, margin, usually below the first node.</li>
+        <li> A central black 'pupil' may be visible: this is a mass of compacted hyphae and is difficult to remove by rubbing.</li>
+    </ul>
+    <h2 style="text-align: left; color:red">Control Measures and Nutrient recommendation</h2>
+    <ul>
+        <li><b>Rotation and previous crop: </b>Although a one or two year break from cereals reduces eyespot inoculum in the field, it will not prevent infection via air-borne ascospores. Wheat as a previous crop poses a higher risk than another cereal as a previous crop.</li>
+        <li><b>Cultivation: </b>Use of minimum tillage to establish the crop reduces eyespot risk, compared to ploughing, as inoculum on ploughed-in trash can survive for three years. </li>
+        <li><b>Variety: </b>The variety Cappelle Desprez is the source of most eyespot tolerance in winter wheat (no varieties are completely resistant). Winter wheat varieties believed to carry the Pch 1 resistance gene are indicated in the AHDB Recommended List (RL). The resistance of barley varieties to eyespot is not measured in the RL.</li>
+        <li><b>Crop management: </b>Over fertilised crops are more susceptible to eyespot infection and are more likely to lodge. Use the AHDB Nutrient management guide (RB209) to manage crop nutrition correctly. PGRs can help reduce the risk of lodging.</li>
+
+    </ul>
+
+</section>
+</article>
+</body>
+
+
+
+</html>

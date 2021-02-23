@@ -1,0 +1,56 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Leaf Rust</title>
+        <style>
+            article{
+            display:flex;
+            flex-flow:row wrap;
+            justify-content:center;
+            margin:0px 5px;
+            }
+            body{
+            color:ivory;
+            font-size:22px;
+            }
+            .s1{
+                width:40%;
+                 }
+
+        </style>
+</head>
+<body style="background-image:url({% static 'images/bg1.jpg' %})">
+<h1 style="text-align: center">Leaf Rust</h1>
+<article>
+<section class="s1">
+<img src="{% static 'images/wheat/lru.jpg' %}"  width="300" height="350">
+</section>
+<section class="s1" >
+    <h2 style="text-align: left; color:lightgreen">Introduction</h2>
+    <p>Wheat leaf rust is a fungal disease that affects wheat, barley and rye stems, leaves and grains. Infections can lead up to 20% yield loss, which is exacerbated by dying leaves, which fertilize the fungus. The pathogen is a Puccinia rust fungus.</p>
+
+    <h2 style="text-align: left; color:lightgreen">Symptoms</h2>
+    <ul >
+        <li>Leaf rust is generally found on the leaves, but occasionally is found on glumes and awns.</li>
+        <li> Symptoms are circular or oval, orange pustules on the upper surface of infected leaves.</li>
+        <li> The spores within these pustules are easily dislodged and cover hands and clothing with an orange dust.</li>
+        <li> As the wheat ripens, this orange stage turns into a new stage of the fungus, which is black, and often a mixture or orange and black stages will be intermingled on a leaf.</li>
+    </ul>
+    <h2 style="text-align: left; color:red">Control Measures and Nutrient recommendation</h2>
+    <ul>
+        <li><b>Seed treatments</b> Using the correct fungicide seed treatment and rate is one way to provide effective and economical disease control in wheat production. Seed treatments protect seed and young plants from disease and other threats to plant health and yield. </li>
+        <li><b>Variety selection</b> Where available, use rust-resistant varieties for best protection against leaf rusts. Every commercially available wheat variety has a unique disease package, and excellent disease resistance is not available to manage all disease threats in high-yielding varieties.</li>
+        <li><b>Scouting </b>When scouting for weeds and insects, check for the presence of wheat rusts and other diseases. Monitor reports of wheat rust development occurring in states south of your area.</li>
+        <li><b>Cultural practices </b>Disease-free seed gives seedlings a good start. Good weed control preplant, at planting and throughout the growing season also helps protect against disease and other pests.</li>
+        <li><b>Fungicides</b> Good control of wheat rusts can be achieved with commercially available fungicides and proper application timing. The decision to use fungicides should be based on scouting for symptoms</li>
+    </ul>
+
+</section>
+</article>
+</body>
+
+
+
+</html>

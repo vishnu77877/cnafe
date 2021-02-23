@@ -1,0 +1,87 @@
+
+{% load static %}
+
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Select Disease</title>
+</head>
+<style>
+    .inline-block {
+   display: inline-block;
+   padding: 40 40;
+   position: relative;
+  text-align: center;
+  color: white;
+}
+.bottom-left {
+  position: absolute;
+  bottom: 15px;
+  left: 45px;
+}
+
+a{
+color:white;
+}
+
+</style>
+<body style="background-image:url({% static 'images/bg1.jpg' %})">
+
+
+    <h1 style="color:White">Select the disease found in your crop</h1>
+
+    <br><br><br>
+    <div id="banner">
+        <div class="inline-block">
+            <a href="ac">
+            <img src ="{% static 'images/tomato/ac.jpg' %}" height="250" width="250" >
+            <div class="bottom-left"><h1>Anthracnose</h1></div>
+            </a>
+        </div>
+
+        <div class="inline-block">
+            <a href="ber">
+                <img src ="{% static 'images/tomato/ber.jpeg' %}" height="250" width="250" >
+            <div class="bottom-left"><h1>Blossom End Rot</h1></div>
+
+            </a>
+        </div>
+
+
+        <div class="inline-block">
+            <a href="fc">
+            <img src ="{% static 'images/tomato/fc.jpeg' %}" height="250" width="250">
+            <div class="bottom-left"><h1>Fruit Crack</h1></div>
+            </a>
+        </div>
+
+        <div class="inline-block">
+            <a href="lro">
+            <img src ="{% static 'images/tomato/lro.jpeg' %}" height="250" width="250">
+            <div class="bottom-left"><h1>Leaf Roller</h1></div>
+            </a>
+        </div>
+
+        <div class="inline-block">
+            <a href="sls">
+            <img src ="{% static 'images/tomato/sls.jpg' %}" height="250" width="250">
+            <div class="bottom-left"><h1>Septoria Leaf Spots</h1></div>
+            </a>
+        </div>
+
+
+        <div class="inline-block">
+            <a href="ss">
+                <img src ="{% static 'images/tomato/ss.jpg' %}" height="250" width="250" >
+            <div class="bottom-left"><h1>Sunscald</h1></div>
+
+            </a>
+        </div>
+
+
+
+</body>
+
+</html>

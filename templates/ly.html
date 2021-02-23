@@ -1,0 +1,56 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Lethal Yellowing</title>
+        <style>
+            article{
+            display:flex;
+            flex-flow:row wrap;
+            justify-content:center;
+            margin:0px 5px;
+            }
+            body{
+            color:ivory;
+            font-size:22px;
+            }
+            .s1{
+                width:40%;
+                 }
+
+        </style>
+</head>
+<body style="background-image:url({% static 'images/bg1.jpg' %})">
+<h1 style="text-align: center">Lethal Yellowing</h1>
+<article>
+<section class="s1">
+<img src="{% static 'images/coconut/ly.jpg' %}"  width="300" height="350">
+</section>
+<section class="s1" >
+    <h2 style="text-align: left; color:lightgreen">Introduction</h2>
+    <p>Lethal yellowing (LY) is a phytoplasma disease that attacks many species of palms, including some commercially important species such as the coconut and date palm. ... There is a direct connection between green lawns and the spread of lethal yellowing in Florida.</p>
+
+    <h2 style="text-align: left; color:lightgreen">Symptoms</h2>
+    <ul >
+        <li>Premature dropping of mature and immature coconuts (fruits on other varieties) in a process called ‘shelling’. Most of the fallen nuts will have a brown or black water-soaked area immediately under the calyx.</li>
+        <li>Flower stalks (inflorescences) begin to blacken. Most male flowers will be dead on the blackened inflorescences and no fruits will set.</li>
+        <li>Palm fronds start to yellow (or, in the case of some species, turn greyish-brown), beginning with the older, lower fronds and advancing upward through the crown. Fronds that have yellowed will die, turn brown and hang down.</li>
+        <li>The spear leaf collapses and the bud dies. By the time that this happens, the tree is already dead.</li>
+        <li>The entire crown falls from the tree leaving a forlorn ‘telephone pole’ stalk.</li>
+
+    </ul>
+    <h2 style="text-align: left; color:red">Control Measures and Nutrient recommendation</h2>
+    <ul >
+        <li>Cultural Control : The most practical long term solution to controlling lethal yellowing is the use of resistant cultivars. Coconut cultivars, such as the ‘Malayan Dwarf’ or hybrid ‘Maypan’ (Malayan Dwarf x Panama Tall), have exhibited acceptable levels of resistance in most areas.</li>
+        <li>Chemical Control : Chemical control is achieved by application of the antibiotic<b> oxytetracycline HCl (often referred to as OTC) </b>administered to palms by liquid injection into the trunk. The antibiotic can also be used preventively to protect palms when lethal yellowing is known to occur in the area</li>
+
+    </ul>
+
+</section>
+</article>
+</body>
+
+
+
+</html>

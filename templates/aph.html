@@ -1,0 +1,64 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Aphids</title>
+        <style>
+            article{
+            display:flex;
+            flex-flow:row wrap;
+            justify-content:center;
+            margin:0px 5px;
+            }
+            body{
+            color:ivory;
+            font-size:22px;
+            }
+            .s1{
+                width:40%;
+                 }
+
+        </style>
+</head>
+<body style="background-image:url({% static 'images/bg1.jpg' %})">
+<h1 style="text-align: center">Aphids</h1>
+<article>
+<section class="s1">
+<img src="{% static 'images/wheat/aph.jpg' %}"  width="300" height="350">
+</section>
+<section class="s1" >
+    <h2 style="text-align: left; color:lightgreen">Introduction</h2>
+    <p>Wheat aphids prefer to feed on leaves and grain spikes. While feeding, these aphids can transmit a toxin that causes discoloration and distortion of the plant. Heavily infested leaves will have white, purple or yellow streaks, plant and head stunting and poorly formed grains or no grains at all.</p>
+
+    <h2 style="text-align: left; color:lightgreen">Symptoms</h2>
+    <ul >
+        <li>There may be no obvious symptoms while aphids are feeding and causing direct damage.</li>
+        <li> Heavily infested plants may turn yellow and may be covered in a sugary honeydew produced by the aphids and on which black sooty moulds may develop.</li>
+        <li>Much larger yield and quality losses can be sustained when crops are also infected with yellow dwarf virus.</li>
+    </ul>
+    <h2 style="text-align: left; color:red">Control Measures and Nutrient recommendation</h2>
+    <ul>
+        <li>Select certiﬁed varieties that are well-suited for the growing area. Contact your local agronomist or seed supplier for more details.</li>
+        <li>Sow the crop in November, not after</li>
+        <li>Intercrop the wheat with canola. Plant 1 canal block of canola after every 400 feet of wheat to successfully manage the aphid attack</li>
+        <li>Avoid overdosing the soil with nitrogenous fertiliser</li>
+        <li>Scout the field weekly so that the pest is recognised early in its attack</li>
+        <li>Remove infested plants, grains and wheat grasses</li>
+        <li>Apply biological control from parasitic wasps, predators, ladybird beetles and lacewings which can eat hundreds of aphids in a lifetime</li>
+        <li>Use orange peel: 5 Kg/100 litre of water</li>
+        <ul>
+            <li>dip 5 kg orange peel for 24 hours in 100 litres of water in a drum</li>
+            <li>separate the water and spray it on the crop attacked by aphid</li>
+        </ul>
+        <li>Spray neem extract azadirachtin 250 ml /100 litre of water when attack is found in patches</li>
+        <li>Use a seed treatment: tebuconazole + imidacloprid 4ml per kg of seed</li>
+    </ul>
+
+</section>
+</article>
+</body>
+
+
+
+</html>

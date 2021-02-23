@@ -1,0 +1,57 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Powdery Mildew</title>
+        <style>
+            article{
+            display:flex;
+            flex-flow:row wrap;
+            justify-content:center;
+            margin:0px 5px;
+            }
+            body{
+            color:ivory;
+            font-size:22px;
+            }
+            .s1{
+                width:40%;
+                 }
+
+        </style>
+</head>
+<body style="background-image:url({% static 'images/bg1.jpg' %})">
+<h1 style="text-align: center">Powdery Mildew</h1>
+<article>
+<section class="s1">
+<img src="{% static 'images/wheat/pm.jpg' %}"  width="300" height="350">
+</section>
+<section class="s1" >
+    <h2 style="text-align: left; color:lightgreen">Introduction</h2>
+    <p>Powdery mildew, caused by Blumeria graminis f. It is most prevalent on the lower leaves of susceptible varieties in late April or early May when wheat is in the joint to flag-leaf stage of development. This disease impacts grain yield by reducing the number of heads, and kernel size and weight.</p>
+
+    <h2 style="text-align: left; color:lightgreen">Symptoms</h2>
+    <ul >
+        <li>Powdery mildew is characterized by a powdery white to gray fungal growth on leaves, stems and heads</li>
+        <li>The fluffy white pustules are first detected on the lowest leaves of plants in early- to mid-April.</li>
+        <li> As the plant matures, the white powdery growth changes to a grey-brown color.</li>
+        <li> The leaf tissue on the opposite side of the leaf from the white mold growth becomes yellow, later turning tan or brown.</li>
+        <li>Small, black fruiting bodies (cleistothecia) develop on leaves as plants mature in June. Cleistothecia are recognized as distinct round, black dots within older, grey colonies of powdery mildew</li>
+    </ul>
+    <h2 style="text-align: left; color:red">Control Measures and Nutrient recommendation</h2>
+    <ul>
+        <li>Planting mildew resistant varieties is the most economical way to control powdery mildew. Wheat varieties vary in their resistance to powdery mildew and new races of the fungus develop that attack previously resistant varieties. Therefore, it is important to get current information on the varieties with effective resistance to powdery mildew.</li>
+        <li>Powdery mildew thrives in fields with high rates of nitrogen. Nitrogen not only promotes tiller formation, causing dense stands, but also increases the susceptibility of the crop. Use a balanced fertilization program with proper levels of N, P and K. Watch for mildew in fields receiving greater than 70 lb N/A.</li>
+        <li>In fields with persistent disease problems, the wheat stubble and other residues should be tilled into the soil to permit disease causing fungi to die out before another wheat crop is planted. Incorporating wheat residues into the soil, destroying volunteer wheat and crop rotation will reduce the amount of overwintering inoculum in the field.</li>
+        <li>Fungicides are available that provide excellent control of powdery mildew. Their application is based on scouting fields for symptoms and assessing disease severity from tiller elongation through flowering stages of growth. It is important to keep the top two leaves of the plant as disease free as possible during grain fill.</li>
+
+    </ul>
+
+</section>
+</article>
+</body>
+
+
+
+</html>

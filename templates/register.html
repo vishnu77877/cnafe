@@ -1,0 +1,136 @@
+{% load static %}
+<!DOCTYPE html>
+<!--
+Created using JS Bin
+http://jsbin.com
+
+Copyright (c) 2020 by anonymous (http://jsbin.com/xilibuniku/1/edit)
+
+Released under the MIT license: http://jsbin.mit-license.org
+-->
+<meta name="robots" content="noindex">
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>CNAFE</title>
+</head>
+<style>
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: block;
+  text-align: center;
+  
+}
+
+li{
+  display: inline; 
+  padding: 8px;
+  font-family: sans-seriff;
+}
+
+#f1{
+border:5px solid black;
+text-align: center;
+background-color:lightgreen;
+}
+#p1{
+	font-family: 'Playfair Display', serif;
+	font-size: 24px;
+	font-size: 2.4rem;
+	font-style: italic;
+}
+article{
+  display:flex;
+  flex-flow:row wrap;
+  justify-content:center;
+  margin:0px 5px;
+  }
+.s1{
+  width:40%;
+  }
+input[type=text] {
+  width: 70%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+input[type=password] {
+  width: 70%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+input[type=email] {
+  width: 70%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+input[type=submit]{
+  width: 70%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  background-color:lightblue;
+}
+#icon{
+text-align:center;
+}
+#ss{
+float: right;
+margin: 0 1.5%;
+width: 30%;
+border:2px solid black;
+text-align: center;
+}
+#bu2{
+ width: 40%;
+  padding: 12px 20px;
+  margin: 0px 0;
+  box-sizing: border-box;
+ background-color:lightgrey;
+}
+p{
+color:White;
+}
+label
+{color:white;
+}
+h2
+{color:darkblue;
+}
+#h21
+{color:white;
+}
+</style>
+<body style="background-image: url({% static 'images/bg.jpeg' %}) ">
+<article> 
+ <section class="s1">
+	<br><br><br><br><br><br><br>
+	<h2>Register now to access all our features</h2>
+  </section>
+  <section class="s1">
+	<form id="f1" style="background-image: url({% static 'images/insta.jpeg' %})" action="register" method="post">
+		{% csrf_token %}
+		<p id="p1">Registration</p>
+		<input type="text" name="first_name" placeholder="First Name"><br>
+		<input type="text" name="last_name" placeholder="Last Name"><br>
+		<input type="text" name="user_name" placeholder="User Name"><br>
+		<input type="email" name="email" placeholder="Email id"><br>
+		<input type="password" name="password1" placeholder="Password"><br>
+		<input type="password" name="password2" placeholder="Confirm password"><br>
+		<input type="checkbox" name="ch1" id="a"><label for="a">I am a Farmer</label><br>
+		<input type="submit" name="Submit"><br>
+	</form>
+	  <div>
+		  {% for message in messages %}
+		  <h2 id="h21">{{message}}</h2>
+		  {% endfor %}
+	  </div>
+  </section>
+</article>
+</body>
+

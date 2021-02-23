@@ -1,0 +1,55 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Stink Bugs</title>
+        <style>
+            article{
+            display:flex;
+            flex-flow:row wrap;
+            justify-content:center;
+            margin:0px 5px;
+            }
+            body{
+            color:ivory;
+            font-size:22px;
+            }
+            .s1{
+                width:40%;
+                 }
+
+        </style>
+</head>
+<body style="background-image:url({% static 'images/bg1.jpg' %})">
+<h1 style="text-align: center">Stink Bugs</h1>
+<article>
+<section class="s1">
+<img src="{% static 'images/wheat/ed.jpg' %}"  width="300" height="350">
+</section>
+<section class="s1" >
+    <h2 style="text-align: left; color:lightgreen">Introduction</h2>
+    <p>Stink bugs get their name from the unpleasant odor they produce when they are threatened. It is thought that this odor helps protect the bugs against predators. The stink bugs produce the smelly chemical in a gland on their abdomen. Some species can actually spray the chemical several inches.</p>
+
+    <h2 style="text-align: left; color:lightgreen">Symptoms</h2>
+    <ul >
+        <li>Adult stink bugs feed on stem tissue or developing kernels.</li>
+        <li> Saliva from this insect is toxic to the plant, and a single feeding puncture can kill a stem.</li>
+        <li> Feeding on kernels during the milk dough stage will destroy the kernel, while feeding during later development stages will badly shrivel the grain.</li>
+        <li> Feeding on the developing spike may cause partial or total sterility.</li>
+        <li> Adult stink bugs have a shield-shaped body and emit a disagreeable odor when crushed.</li>
+    </ul>
+    <h2 style="text-align: left; color:red">Control Measures and Nutrient recommendation</h2>
+    <ul>
+        <li><b>Monitoring</b>: Observe fields frequently after heading, particularly those adjacent to desert or rangeland. If vegetation in areas surrounding the field is beginning to dry up, make more frequent observations. Using a sweep net, sample the margins, then move toward the center of the field; initially, stink bugs are generally confined to the edges of the field.</li>
+        <li><b>Management Decisions :</b>No economic thresholds have been established for stink bug. No chemicals are currently registered for use against stink bug on barley, wheat, oats, or rye.</li>r along field margins bordering a road ditch or section line where grassy weed hosts are present.</li>
+
+    </ul>
+
+</section>
+</article>
+</body>
+
+
+
+</html>

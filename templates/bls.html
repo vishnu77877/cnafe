@@ -1,0 +1,57 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bacterial Leaf Streak</title>
+        <style>
+            article{
+            display:flex;
+            flex-flow:row wrap;
+            justify-content:center;
+            margin:0px 5px;
+            }
+            body{
+            color:ivory;
+            font-size:22px;
+            }
+            .s1{
+                width:40%;
+                 }
+
+        </style>
+</head>
+<body style="background-image:url({% static 'images/bg1.jpg' %})">
+<h1 style="text-align: center">Bacterial Leaf Streak</h1>
+<article>
+<section class="s1">
+<img src="{% static 'images/wheat/bls.jpg' %}"  width="300" height="350">
+</section>
+<section class="s1" >
+    <h2 style="text-align: left; color:lightgreen">Introduction</h2>
+    <p>Bacterial leaf streak (BLS), also known as black chaff, is a common bacterial disease of wheat. The disease is caused by the bacterial species Xanthomonas translucens pv. undulosa. The pathogen is found globally, but is a primary problem in the US in the lower mid-south and can reduce yields by up to 40 percent.</p>
+
+    <h2 style="text-align: left; color:lightgreen">Symptoms</h2>
+    <ul >
+        <li>Initial leaf symptoms include water-soaked lesions extending along the leaf margins and midrib. When held up to incident light, lesions will appear translucent </li>
+        <li>Later these lesions may coalesce affecting larger areas of the leaf. Lesions will turn yellow in color and then eventually brown and necrotic</li>
+        <li>Under humid conditions, water-soaked lesions will produce honey-like exudates (sign of the pathogen), and will harden into yellowish, resinous granules</li>
+        <li>When there is moisture on the leaves, these honey-like exudates turn milky and later they spread on the leaf surface forming a thin layer of transparent flakes.</li>
+        <li>Bacterial propagules that land on the wheat spike (head) will cause black chaff. Symptoms include purplish-black longitudinal stripes on glumes that can also be seen on the peduncle and the rachis </li>
+   </ul>
+    <h2 style="text-align: left; color:red">Control Measures and Nutrient recommendation</h2>
+    <ul>
+        <li><b>Cultural practices.</b> Straw from a previously infected crop or weed hosts can serve as a source of overwintering inoculum, so field infestation can be reduced if the straw is incorporated into the soil.</li>
+        <li><b>Certified seed.</b> Use of clean and pathogen-free seed is important, and seed multiplication should take place in disease-free areas under dry conditions without overhead irrigation.</li>
+        <li><b>Chemical control.</b> Seed treatments can reduce seedborne sources of inoculum, but they will not prevent outbreaks of BLS in the field if conditions are conducive for disease development. Seed treatment with acidified cupric acetate (0.5%) at 45°C for 20 minutes can reduce the incidence of BLS in the field due to seedborne infections. Studies have shown some reductions in disease with seed treatments including guazatine 300 g/L and imazalil 20 g/L, formaline, and dry heat, but these are not sufficient to prevent disease outbreaks when contaminated seed is planted.</li>
+        <li><b>Host resistance.</b> Though commercial cultivars of wheat with high levels of BLS resistance are not available, some cultivars are less susceptible to the disease than others. Resistance to BLS is quantitative in nature and single gene resistance to BLS has not been identified. Major quantitative trait loci (QTL) associated with BLS resistance have been reported across the wheat genome from at least 9 of the 42 chromosomes (chromosomes 1A, 3A, 4A, 4B, 5A, 5D, 6B, and 7D).</li>
+
+    </ul>
+
+</section>
+</article>
+</body>
+
+
+
+</html>

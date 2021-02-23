@@ -1,0 +1,59 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Fusarium Head Blight</title>
+        <style>
+            article{
+            display:flex;
+            flex-flow:row wrap;
+            justify-content:center;
+            margin:0px 5px;
+            }
+            body{
+            color:ivory;
+            font-size:22px;
+            }
+            .s1{
+                width:40%;
+                 }
+
+        </style>
+</head>
+<body style="background-image:url({% static 'images/bg1.jpg' %})">
+<h1 style="text-align: center">Fusarium Head Blight</h1>
+<article>
+<section class="s1">
+<img src="{% static 'images/wheat/fhb.jpg' %}"  width="300" height="350">
+</section>
+<section class="s1" >
+    <h2 style="text-align: left; color:lightgreen">Introduction</h2>
+    <p>Fusarium head blight (FHB) or scab is a fungal disease that affects wheat, barley, oats, corn, and many grasses.  FHB is important, not only because it reduces yield, but also because it reduces the quality and feeding value of grain.  In addition, the FHB fungus may produce mycotoxins, including deoxynivalenol (also known as DON or vomitoxin), that when ingested, can adversely affect livestock and human health. </p>
+
+    <h2 style="text-align: left; color:lightgreen">Symptoms</h2>
+    <ul >
+        <li>Symptoms usually become apparent by the end of July or early August.</li>
+        <li> Symptoms first begin as water-soaked brownish spots at the base of the glumes and ultimately glumes become bleached in colour.</li>
+        <li> In wheat, FHB is recognized as premature bleaching of one or more of the spikelets in the head and may result in unfilled spikelets above the point of infection.</li>
+        <li> This symptom is quite striking on green heads.</li>
+        <li>Severity of damage to the kernel is dependent on the time of infection.</li>
+        <li>Infection at early flowering will likely result in kernel abortion, infection later in flowering will lead to FDK, whereas later infections (up to the soft dough stage) may not exhibit symptoms but are still capable of harbouring the fungus. In wheat, rye and triticale, severe FDK are typically shrunken and chalky white.</li>
+        <li> In hulled barley and oats, symptoms are less apparent since the kernels may not be shrunken, but orange or black fungal growth may develop on the hull.</li>
+    </ul>
+    <h2 style="text-align: left; color:red">Control Measures and Nutrient recommendation</h2>
+    <ul>
+        <li><b>Seed Treatment </b>- The use of seed treatments will limit seedling blights caused by seed and soil-borne pathogens, including Fusarium species. Seed treatments will not prevent FHB from developing later in the season from stubble-borne disease inoculum in regions where Fusarium species are already established.</li>
+        <li><b>Crop Rotation </b>- Diversity in the rotation allows time for crop residues and the pathogens that survive on them to break down, reducing the risk to subsequent susceptible crops. When it comes to Fusarium, diseases such as root rots in other crops may decrease the benefit of the crop rotation to FHB. Although crop residues from pulses breakdown quicker than canola and mustard, both tend to persist and support pathogens longer than cereal crop residues.</li>
+        <li><b>Stubble Management </b>- Cereal residue will enable the fungus to overwinter and provide disease inoculum for the following year. Effective straw chopping and chaff spreading will encourage decomposition. Burying the residue through tillage will also speed its decomposition but may not completely eliminate the risk since all residue is not buried or may be brought to the surface again in subsequent tillage operations.</li>
+        <li><b>Variety Selection </b>- Cereals vary in their susceptibility to FHB. Durum and CPS wheat are the most susceptible to FHB. Winter wheat is susceptible, but often escapes infection because it flowers before Fusarium spores are present. Barley is less susceptible than wheat, but barley can still develop significant levels of FHB. Overall, oats are the least susceptible to FHB, but because they are often used for food processing, there is a very low tolerance for FDK.</li>
+
+    </ul>
+
+</section>
+</article>
+</body>
+
+
+
+</html>

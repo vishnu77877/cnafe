@@ -1,0 +1,57 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Leaf Roller</title>
+        <style>
+            article{
+            display:flex;
+            flex-flow:row wrap;
+            justify-content:center;
+            margin:0px 5px;
+            }
+            body{
+            color:ivory;
+            font-size:22px;
+            }
+            .s1{
+                width:40%;
+                 }
+
+        </style>
+</head>
+<body style="background-image:url({% static 'images/bg1.jpg' %})">
+<h1 style="text-align: center">Leaf Roller</h1>
+<article>
+<section class="s1">
+<img src="{% static 'images/tomato/lro.jpeg' %}"  width="300" height="350">
+</section>
+<section class="s1" >
+    <h2 style="text-align: left; color:lightgreen">Introduction</h2>
+    <p>Leaf roll on tomatoes is not caused by disease and does not affect yield or fruit quality. Curled or rolled leaves is a physiological disorder of tomatoes that is often associated with hot dry weather or wind, however it can also occur in response to other stresses like high moisture and nitrogen, fast growth, heavy production, pruning and root damage.</p>
+
+    <h2 style="text-align: left; color:lightgreen">Symptoms</h2>
+    <ul >
+        <li>Symptoms of leaf roll appear on lower leaves first, when the leaves roll upward and sometimes overlap.</li>
+        <li>Affected leaves are rigid and have a leathery texture.</li>
+        <li> In some cases, leaves can recover if environmental conditions and cultural factors are adjusted to reduce stress.</li>
+        <li>However, if prolonged stresses occur, the leaves are not likely to recover. In severe cases, whole plants can be affected.</li>
+    </ul>
+    <h2 style="text-align: left; color:red">Control Measures and Nutrient recommendation</h2>
+    <ul >
+        <li>Selecting determinate cultivars may be key to preventing physiological leaf roll on tomatoes.</li>
+        <li> Keeping soil temperatures below 95 degrees Fahrenheit (35 C.) by using mulch or evaporative cooling is also an effective strategy.</li>
+        <li> Avoid over fertilizing and excessive pruning.</li>
+        <li>Maintain consistent soil moisture and make sure young transplants are hardened off before planting outdoors. Be cautious when weeding around young plants to avoid damaging the roots. If you are spraying a chemical herbicide in the garden, do so when there is no wind to avoid unintended chemical injury.</li>
+        <li> Plants can recover if conditions become more favorable and your tomato crop will be unaffected.</li>
+
+    </ul>
+
+</section>
+</article>
+</body>
+
+
+
+</html>

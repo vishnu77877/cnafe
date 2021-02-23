@@ -1,0 +1,60 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bacterial Blight</title>
+        <style>
+            article{
+            display:flex;
+            flex-flow:row wrap;
+            justify-content:center;
+            margin:0px 5px;
+            }
+            body{
+            color:ivory;
+            font-size:22px;
+            }
+            .s1{
+                width:40%;
+                 }
+
+        </style>
+</head>
+<body style="background-image:url({% static 'images/bg1.jpg' %})">
+<h1 style="text-align: center">Bacterial Blight</h1>
+<article>
+<section class="s1">
+<img src="{% static 'images/rice/blb.jpeg' %}"  width="300" height="350">
+</section>
+<section class="s1" >
+    <h2 style="text-align: left; color:lightgreen">Introduction</h2>
+    <p>Rice bacterial blight, also called bacterial blight of rice, deadly bacterial disease that is among the most destructive afflictions of cultivated rice (Oryza sativa and O. glaberrima). In severe epidemics, crop loss may be as high as 75 percent, and millions of hectares of rice are infected annually.</p>
+
+    <h2 style="text-align: left; color:lightgreen">Symptoms</h2>
+    <ul >
+        <li>Bacterial blight first becomes evident as water-soaked streaks that spread from the leaf tips and margins, becoming larger and eventually releasing a milky ooze that dries into yellow droplets.</li>
+        <li>Characteristic grayish white lesions then appear on the leaves, signaling the late stages of infection, when leaves dry out and die.</li>
+        <li>In seedlings, the leaves dry out and wilt, a syndrome known as kresek.</li>
+        <li>Infected seedlings usually are killed by bacterial blight within two to three weeks of being infected; adult plants may survive, though rice yield and quality are diminished.</li>
+        <li>Since rice paddies are flooded throughout most of the growing season, Xoo may easily spread among crops; bacteria travel through the water from infected plants to the roots and leaves of neighbouring rice plants. </li>
+        <li>Wind and water may also help spread Xoo bacteria to other crops and rice paddies. Various mechanisms of disease, including quorum sensing and biofilm formation, have been observed in rice bacterial blight and Xoo.</li>
+
+    </ul>
+    <h2 style="text-align: left; color:red">Control Measures and Nutrient recommendation</h2>
+    <ul >
+        <li>Chemical control has been largely ineffective in minimizing bacterial blight because of safety concerns, practicality, and bacterial resistance.</li>
+        <li>Biological control methods, which rely on the use of bacterial antagonists of pathogens (disease-causing organisms), can reduce bacterial blight, though their use has been limited.</li>
+        <li>The most-common method of defending against rice bacterial blight is the cultivation of rice varieties with genes that confer resistance to Xoo infection.</li>
+        <li>Over 30 resistance genes, termed Xa1 to Xa33, have been identified in rice plants, and some, such as Xa21, have been integrated into the genomes of commercial rice strains.</li>
+        <li> These resistant rice varieties have been largely successful, dramatically reducing yield losses in many rice-producing countries.</li>
+
+    </ul>
+
+</section>
+</article>
+</body>
+
+
+
+</html>

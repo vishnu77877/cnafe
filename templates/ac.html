@@ -1,0 +1,58 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Anthracnose</title>
+        <style>
+            article{
+            display:flex;
+            flex-flow:row wrap;
+            justify-content:center;
+            margin:0px 5px;
+            }
+            body{
+            color:ivory;
+            font-size:22px;
+            }
+            .s1{
+                width:40%;
+                 }
+
+        </style>
+</head>
+<body style="background-image:url({% static 'images/bg1.jpg' %})">
+<h1 style="text-align: center">Anthracnose</h1>
+<article>
+<section class="s1">
+<img src="{% static 'images/tomato/ac.jpg' %}"  width="300" height="350">
+</section>
+<section class="s1" >
+    <h2 style="text-align: left; color:lightgreen">Introduction</h2>
+    <p>Tomato anthracnose is a serious disease of processing tomatoes caused by the fungus Colletotrichum coccodes and is a threat to tomatoes grown in New York State. To minimize the mold count in processed tomato products, processors impose a strict limit on the amount of anthracnose acceptable on the raw product. </p>
+
+    <h2 style="text-align: left; color:lightgreen">Symptoms</h2>
+    <ul >
+        <li>Early symptoms appear on ripe fruit as small, slightly sunken, watersoaked circular spots</li>
+        <li>The lesions increase in size, become more depressed, and the central portion darkens.</li>
+        <li> The darkened area contains many small, dark, fungal structures from which masses of salmon-colored spores are released in moist weather. As the fungus spreads within the fruit, a semisoft decay occurs.</li>
+        <li> Anthracnose lesions on a single fruit often merge and result in large rotted areas.</li>
+        <li> In addition, secondary organisms often move into these lesions and rot the fruit completely.</li>
+    </ul>
+    <h2 style="text-align: left; color:red">Control Measures and Nutrient recommendation</h2>
+    <ul >
+        <li>Because anthracnose is more prevalent on poorly drained soils, tomatoes should be planted on well-drained land.</li>
+        <li>Three- to four -year crop rotations, which exclude crops in the Solanaceae family, are recommended to prevent a buildup of the fungus in soil</li>
+        <li>Several fungicides are registered for use on tomatoes to control anthracnose</li>
+        <li>Fungicide applications should begin when fruit are formed on the first cluster.</li>
+        <li>The best fungicides on the market for tomato diseases contain <b>potassium bicarbonate</b>, which is safe to use on food products, and is considered safe by the FDA.</li>
+        <li>The most commonly used fungicide for anthracnose is <b>sodium bicarbonate</b>, or baking soda</li>
+    </ul>
+
+</section>
+</article>
+</body>
+
+
+
+</html>

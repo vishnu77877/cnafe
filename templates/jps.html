@@ -1,0 +1,144 @@
+{% load static %}
+<!DOCTYPE html>
+<meta name="robots" content="noindex">
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title> Job Status</title>
+</head>
+<style>
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: block;
+  text-align: center;
+
+}
+button{
+  width: 10%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  background-color:lightblue;
+}
+
+
+li{
+  display: inline;
+  padding: 8px;
+  font-family: sans-seriff;
+}
+
+#f1{
+border:5px solid black;
+text-align: center;
+background-color:lightgreen;
+}
+#p1{
+	font-family: 'Playfair Display', serif;
+	font-size: 24px;
+	font-size: 2.4rem;
+	font-style: italic;
+}
+article{
+  display:flex;
+  flex-flow:row wrap;
+  justify-content:center;
+  margin:0px 5px;
+  }
+.s1{
+  width:40%;
+  }
+input[type=text] {
+  width: 70%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+input[type=password] {
+  width: 70%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+input[type=email] {
+  width: 70%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+input[type=submit]{
+  width: 70%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  background-color:lightblue;
+}
+#icon{
+text-align:center;
+}
+#ss{
+float: right;
+margin: 0 1.5%;
+width: 30%;
+border:2px solid black;
+text-align: center;
+}
+#bu2{
+ width: 40%;
+  padding: 12px 20px;
+  margin: 0px 0;
+  box-sizing: border-box;
+ background-color:lightgrey;
+}
+p{
+color:White;
+}
+label
+{color:white;
+}
+h2
+{color:darkblue;
+}
+#h21
+{color:white;
+}
+</style>
+<body style="background-image: url({% static 'images/bg.jpeg' %}) ">
+
+<h1>Jobs that you have posted</h1><button onclick="location.href='logout'" type="button" style="float: right;">
+         Log out</button><br>
+
+<article>
+ <section class="s1">
+<h1>Status of uploaded Jobs</h1>
+<table border="1" width="600">
+<tr bgcolor="cyan">
+<td>Job Id</td>
+<td>Job Role</td>
+<td>Date </td>
+<td>Employee Name </td>
+<td>Employee Mobile</td>
+</tr>
+
+{% for t in take %}
+{% if t.farmer == name1 %}
+<tr bgcolor="white">
+<td>{{ t.job_id }}</td>
+<td>{{ t.role }}</td>
+<td>{{ t.date }}</td>
+<td>{{ t.name }}</td>
+<td>{{ t.cno }}</td>
+</tr>
+{% endif %}
+{% endfor %}
+</table>
+
+</section>
+</article>
+</body>
+
+
+</html>

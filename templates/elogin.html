@@ -1,0 +1,66 @@
+
+{% load static %}
+
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Employee home</title>
+</head>
+<style>
+    button{
+  width: 20%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  background-color:lightblue;
+}
+    .inline-block {
+   display: inline-block;
+   padding: 40 40;
+   position: relative;
+  text-align: center;
+  color: white;
+}
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+}
+a{
+color:white;
+}
+
+</style>
+<body style="background-image:url({% static 'images/bg1.jpg' %})">
+
+
+    <h1>Hello, {{user.first_name}}</h1><button onclick="location.href='logout'" type="button" style="float: right;">
+         Log out</button><br>
+
+    <br><br><br>
+    <div id="banner">
+        <div class="inline-block">
+            <a href={% url 'aj' %}>
+            <img src ="{% static 'images/cna.jpg' %}" height="600" width="600" >
+            <div class="centered"><h1>Apply for a job</h1></div>
+            </a>
+        </div>
+
+        <div class="inline-block">
+            <a href={% url 'ajs' %}>
+                <img src ="{% static 'images/jp.jpg' %}" height="600" width="600" >
+            <div class="centered"><h1 >View applied jobs</h1></div>
+
+            </a>
+        </div>
+
+
+    </div>
+
+</body>
+
+</html>

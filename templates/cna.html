@@ -1,0 +1,72 @@
+
+{% load static %}
+
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Select Crop</title>
+</head>
+<style>
+    .inline-block {
+   display: inline-block;
+   padding: 40 40;
+   position: relative;
+  text-align: center;
+  color: white;
+}
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+}
+a{
+color:white;
+}
+
+</style>
+<body style="background-image:url({% static 'images/bg1.jpg' %})">
+
+
+    <h1 style="color: White">Select Crop to get Nutrient Advice</h1>
+
+    <br><br><br>
+    <div id="banner">
+        <div class="inline-block">
+            <a href="rice">
+            <img src ="{% static 'images/rice.jpg' %}" height="300" width="250" >
+            <div class="centered"><h1>Rice</h1></div>
+            </a>
+        </div>
+
+        <div class="inline-block">
+            <a href="wheat">
+                <img src ="{% static 'images/wheat.jpg' %}" height="300" width="250" >
+            <div class="centered"><h1 >Wheat</h1></div>
+
+            </a>
+        </div>
+
+
+        <div class="inline-block">
+            <a href="tomato">
+            <img src ="{% static 'images/tomato.jpg' %}" height="300" width="250">
+            <div class="centered"><h1>Tomato</h1></div>
+            </a>
+        </div>
+
+        <div class="inline-block">
+            <a href="coconut">
+            <img src ="{% static 'images/coconut.jpg' %}" height="300" width="250">
+            <div class="centered"><h1>Coconut</h1></div>
+            </a>
+        </div>
+
+    </div>
+
+</body>
+
+</html>

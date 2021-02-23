@@ -1,0 +1,55 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>SunScald</title>
+        <style>
+            article{
+            display:flex;
+            flex-flow:row wrap;
+            justify-content:center;
+            margin:0px 5px;
+            }
+            body{
+            color:ivory;
+            font-size:22px;
+            }
+            .s1{
+                width:40%;
+                 }
+
+        </style>
+</head>
+<body style="background-image:url({% static 'images/bg1.jpg' %})">
+<h1 style="text-align: center">SunScald</h1>
+<article>
+<section class="s1">
+<img src="{% static 'images/tomato/ss.jpg' %}"  width="300" height="350">
+</section>
+<section class="s1" >
+    <h2 style="text-align: left; color:lightgreen">Introduction</h2>
+    <p>Sunscald is a condition common to tomatoes and peppers when they are exposed to the direct rays of the sun during hot weather. The condition causes pale white or yellowish blotches on the fruit where the sun's rays are most intense.</p>
+
+    <h2 style="text-align: left; color:lightgreen">Symptoms</h2>
+    <ul >
+        <li>On tomatoes, sunscald will appear as a yellow or white-spotted area on the side or upper part of the fruit that has been directly exposed to the sun.</li>
+        <li>As the fruit ripens, the affected area may become blistered before it finally turns thin, wrinkly, and paper-like in appearance.</li>
+        <li>At this stage, the fruit becomes more susceptible to secondary fungal problems, like Alternaria.</li>
+    </ul>
+    <h2 style="text-align: left; color:red">Control Measures and Nutrient recommendation</h2>
+    <ul >
+        <li>Keeping plants properly spaced can reduce sun exposure and using tomato cages or staking tomato plants will minimize the need for any pruning.</li>
+        <li>The use of fungicide throughout the season can help control any fungal issues that do pop up, especially those responsible for leaf drop (which leave the fruits exposed)</li>
+        <li>Disease-resistant types can also prevent sunscald by guarding against leaf drop associated with many diseases</li>
+        <li>Growing tomato plant varieties that have heavy foliage can help protect the fruits from the sun’s rays, especially during intense heat.</li>
+
+    </ul>
+
+</section>
+</article>
+</body>
+
+
+
+</html>

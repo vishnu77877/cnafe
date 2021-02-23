@@ -1,0 +1,54 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Wire Worms</title>
+        <style>
+            article{
+            display:flex;
+            flex-flow:row wrap;
+            justify-content:center;
+            margin:0px 5px;
+            }
+            body{
+            color:ivory;
+            font-size:22px;
+            }
+            .s1{
+                width:40%;
+                 }
+
+        </style>
+</head>
+<body style="background-image:url({% static 'images/bg1.jpg' %})">
+<h1 style="text-align: center">Wire Worms</h1>
+<article>
+<section class="s1">
+<img src="{% static 'images/wheat/ww.jpg' %}"  width="300" height="350">
+</section>
+<section class="s1" >
+    <h2 style="text-align: left; color:lightgreen">Introduction</h2>
+    <p>Wireworms are the larval stage of click beetles. Larvae are slender and shiny, yellow to brown, with six slender, short legs. Mature larvae range from 1/2 to 1 inch long. ... Larvae orient to the smell of germinating seeds and will often follow the drill row, consuming seed as they go.</p>
+
+    <h2 style="text-align: left; color:lightgreen">Symptoms</h2>
+    <ul >
+        <li>Soil temperatures of 10–20 degrees Celsius in the spring are ideal for wireworm activity.</li>
+        <li> The worms retreat deeper into the ground in July and August as higher temperatures dry out the soil.</li>
+        <li> Wireworms cause more damage in crops planted in silty, medium texture, well-drained soils and soils that have been under continuous pasture for at least five years.</li>
+        <li> Crops in newly broken sod are extremely at risk because they provide ideal conditions for click beetle egg laying.</li>
+    </ul>
+    <h2 style="text-align: left; color:red">Control Measures and Nutrient recommendation</h2>
+    <ul>
+        <li>Effective Scouting. Walk fields to identify wilted plants or gaps where or areas of dead plants. Dig around the plant to look for feeding damage and insect larvae, to confirm the cause of the damage.</li>
+        <li>Wireworms can be monitored in the fall (or in the early spring for later-planted crops) using bait stations. A count of 0.5 to 1 wireworm per bait station indicates a potential problem. Make your planting and seed treatment decisions accordingly.</li>
+
+    </ul>
+
+</section>
+</article>
+</body>
+
+
+
+</html>

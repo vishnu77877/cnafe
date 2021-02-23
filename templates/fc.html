@@ -1,0 +1,63 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Fruit Crack</title>
+        <style>
+            article{
+            display:flex;
+            flex-flow:row wrap;
+            justify-content:center;
+            margin:0px 5px;
+            }
+            body{
+            color:ivory;
+            font-size:22px;
+            }
+            .s1{
+                width:40%;
+                 }
+
+        </style>
+</head>
+<body style="background-image:url({% static 'images/bg1.jpg' %})">
+<h1 style="text-align: center">Fruit Crack</h1>
+<article>
+<section class="s1">
+<img src="{% static 'images/tomato/fc.jpeg' %}"  width="300" height="350">
+</section>
+<section class="s1" >
+    <h2 style="text-align: left; color:lightgreen">Introduction</h2>
+    <p>Cracking that occurs in a circular pattern at the top of tomato fruits, ringing the stem end, is known as concentric cracking. When cracking of either type occurs in green tomatoes, fruits are likely to rot before they fully ripen if left on the vine. Tomatoes with radial cracks will rot quickly if left on the vine.</p>
+
+    <h2 style="text-align: left; color:lightgreen">Symptoms</h2>
+    <ul >
+        <li>Two types of fruit cracking are common in tomato fruit production.</li>
+        <li> Radial cracking is the most typical and cracks develop at the stem scar and towards the blossom end </li>
+        <li> Concentric cracking is typically seen as splitting of the fruit tissue around the stem scar.</li>
+        <li> Symptoms are usually observed when tomatoes are close to being mature but immature green tomato fruit can also be susceptible.</li>
+    </ul>
+    <h2 style="text-align: left; color:red">Control Measures and Nutrient recommendation</h2>
+    <ul >
+        <li>Tomato cultivars or varieties that are more
+            tolerant to cracking are available.</li>
+        <li> Keeping a
+constant soil moisture by mulching and timely
+watering will prevent rapid fluctuations in water
+availability to the plants Protecting leaves from
+insects and diseases will allow for fruit not to be
+        exposed to the sun.</li>
+        <li> A sound plant nutritional
+program that prevents plants from being
+succulent will lower levels of fruit cracking.</li>
+
+    </ul>
+
+</section>
+</article>
+</body>
+
+
+
+</html>

@@ -1,0 +1,63 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Rice Blast</title>
+        <style>
+            article{
+            display:flex;
+            flex-flow:row wrap;
+            justify-content:center;
+            margin:0px 5px;
+            }
+            body{
+            color:ivory;
+            font-size:22px;
+            }
+            .s1{
+                width:40%;
+                 }
+
+        </style>
+</head>
+<body style="background-image:url({% static 'images/bg1.jpg' %})">
+<h1 style="text-align: center">Rice Blast</h1>
+<article>
+<section class="s1">
+<img src="{% static 'images/rice/rb.jpg' %}"  width="300" height="350">
+</section>
+<section class="s1" >
+    <h2 style="text-align: left; color:lightgreen">Introduction</h2>
+    <p>Rice blast is one of the most destructive diseases of rice. A leaf blast infection can kill seedlings or plants up to the tillering stage. At later growth stages, a severe leaf blast infection reduces leaf area for grain fill, reducing grain yield.
+Leaf blast can kill rice plants at seedling stage and cause yield losses in cases of severe infection.</p>
+
+    <h2 style="text-align: left; color:lightgreen">Symptoms</h2>
+    <ul >
+        <li>Check the leaf and collar for lesions</li>
+        <li>Initial symptoms appear as white to gray-green lesions or spots, with dark green borders.</li>
+        <li>Older lesions on the leaves are elliptical or spindle-shaped and whitish to gray centers with red to brownish or necrotic border.</li>
+        <li>Check for other symptoms:</li>
+        <li>Some resemble diamond shape, wide in the center and pointed toward either ends.</li>
+        <li>Lesions can enlarge and coalesce, growing together, to kill the entire leaves.</li>
+    </ul>
+    <h2 style="text-align: left; color:red">Control Measures and Nutrient recommendation</h2>
+    <ul >
+        <li>The primary control option for blast is to plant resistant varieties. Contact your local agriculture office for up-to-date lists of varieties available.</li>
+        <li>Other crop management measures can also be done, such as:</li>
+        <li>Adjust planting time. Sow seeds early, when possible, after the onset of the rainy season.</li>
+        <li>Split nitrogen fertilizer application in two or more treatments. Excessive use of fertilizer can increase blast intensity.</li>
+        <li>Flood the field as often as possible.</li>
+        <li><b>Silicon fertilizers (e.g., calcium silicate)</b> can be applied to soils that are silicon deficient to reduce blast. However, because of its high cost, silicon should be applied efficiently.</li>
+        <li>Cheap sources of silicon, such as straws of rice genotypes with high silicon content, can be an alternative.</li>
+        <li> Care should be taken to ensure that the straw is free from blast as the fungus can survive on rice straw and the use of infected straw as a silicon source can spread the disease further.</li>
+
+    </ul>
+
+</section>
+</article>
+</body>
+
+
+
+</html>

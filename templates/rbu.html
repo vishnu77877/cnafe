@@ -1,0 +1,65 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Rice Bug</title>
+        <style>
+            article{
+            display:flex;
+            flex-flow:row wrap;
+            justify-content:center;
+            margin:0px 5px;
+            }
+            body{
+            color:ivory;
+            font-size:22px;
+            }
+            .s1{
+                width:40%;
+                 }
+
+        </style>
+</head>
+<body style="background-image:url({% static 'images/bg1.jpg' %})">
+<h1 style="text-align: center">Rice Bug</h1>
+<article>
+<section class="s1">
+<img src="{% static 'images/rice/rbu.jpg' %}"  width="300" height="350">
+</section>
+<section class="s1" >
+    <h2 style="text-align: left; color:lightgreen">Introduction</h2>
+    <p>Rice bugs damage rice by sucking out the contents of developing grains from pre-flowering spikelets to soft dough stage, therefore causing unfilled or empty grains and discoloration. Immature and adult rice bugs both feed on rice grains.</p>
+
+    <h2 style="text-align: left; color:lightgreen">Symptoms</h2>
+    <ul >
+        <li>Check the plant for feeding damage, such as</li>
+        <ul>
+            <li>small or shriveled grains,</li>
+            <li>deformed or spotty grains,</li>
+            <li>empty grains, and</li>
+            <li>erect panicles.</li>
+        </ul>
+        <li>The symptoms can be confused with the damage caused by nutrient deficiency or flower thrips. To confirm rice bug infestation, check for presence of insect:</li>
+        <ul>
+            <li>oval, shiny, and reddish brown eggs along midrib of leaf</li>
+            <li>slender and brown-green nymphs and adults feeding on endosperm of rice grains</li>
+            <li>offensive smell</li>
+        </ul>
+         </ul>
+    <h2 style="text-align: left; color:red">Control Measures and Nutrient recommendation</h2>
+    <ul >
+        <li>Remove weeds from fields and surrounding areas to prevent the multiplication of rice bugs during fallow periods.</li>
+        <li>Level fields with even applications of fertilizer and water encourage rice to grow and develop is at the same rate. Planting fields, within a village, at the same time (synchronous planting) also helps reduce rice bug problems.</li>
+        <li>Capturing rice bugs, in the early morning or late afternoon, by net can be effective at low rice bug densities, though labor intensive.</li>
+        <li>Encourage biological control agents: Some wasps, grasshoppers and spiders attack rice bugs or rice bug eggs. Indiscriminate insecticide use disrupts biological control, resulting in pest resurgence.</li>
+        <li>The choice of insecticide depends on many factors such as the application equipment available, cost of the insecticide, experience of the applicator, or presence of fish. The benefits of using an insecticide must be weighed against the risks to health and the environment. </li>
+    </ul>
+
+</section>
+</article>
+</body>
+
+
+
+</html>

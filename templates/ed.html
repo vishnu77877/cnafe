@@ -1,0 +1,58 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ergot</title>
+        <style>
+            article{
+            display:flex;
+            flex-flow:row wrap;
+            justify-content:center;
+            margin:0px 5px;
+            }
+            body{
+            color:ivory;
+            font-size:22px;
+            }
+            .s1{
+                width:40%;
+                 }
+
+        </style>
+</head>
+<body style="background-image:url({% static 'images/bg1.jpg' %})">
+<h1 style="text-align: center">Ergot Disease</h1>
+<article>
+<section class="s1">
+<img src="{% static 'images/wheat/ed.jpg' %}"  width="300" height="350">
+</section>
+<section class="s1" >
+    <h2 style="text-align: left; color:lightgreen">Introduction</h2>
+    <p>Ergot is a fungal disease primarily caused by Claviceps purpurea. The pathogen has a very broad host range with reports of it infecting over 400 grass species including barley, durum, rye, spring wheat, winter wheat, quackgrass, and brome grass. The pathogen survives as hard-bodied fungal structures called sclerotia or ergot bodies. These sclerotia germinate in the spring giving rise to stroma (mushroom-like) that release hundreds of thousands spores during the growing season. Infection in wheat (or other small grains) occurs when spores land on flowers in the early stages of flowering; prior to the visual appearance of the yellow anthers on the center of the head.</p>
+
+    <h2 style="text-align: left; color:lightgreen">Symptoms</h2>
+    <ul >
+        <li>The first sign of infection by the ergot fungus is the appearance of a sugary yellowish slime (honeydew) on the wheat head at or soon after flowering.</li>
+        <li> Later, ergots (scelorotia) develop and are the most noticeable and characteristic sign of ergot.</li>
+        <li> They are horn-like, purple-black, and 4 to 10 times the normal size of grain.</li>
+        <li> On the head, they replace developing grain and protrude beyond the glumes</li>
+    </ul>
+    <h2 style="text-align: left; color:red">Control Measures and Nutrient recommendation</h2>
+    <ul>
+        <li>Use sclerotia-free seed to plant the next wheat crop.</li>
+        <li>Mow grasses in headlands, roadsides, and waterways before they head.</li>
+        <li>The survival rate of sclerotia on the soil surface is about one year. Crop rotation with non-host crops such as legumes, corn, and sorghum reduces the risk of carryover infections from sclerotia within the field.</li>
+        <li>Plow fields with heavy ergot infestations to bury sclerotia. Burying sclerotia more than one inch deep will prevent them from germinating</li>
+        <li><b>Fungicides </b>– Foliar fungicides at heading have not been shown to be effective in managing ergot. Seed treatment fungicides on ergoty seed lots have been shown to delay and disrupt germination of sclerotia. Studies conducted overseas suggest that triazoles (FRAC 3) have reduced viability of sclerotia.</li>
+        <li><b>Harvesting Strategy</b> – Due to the strict threshold level in wheat (< 0.05% by weight), it is important to scout fields for present of ergot. Often times, ergot incidence will be higher along field margins bordering a road ditch or section line where grassy weed hosts are present.</li>
+
+    </ul>
+
+</section>
+</article>
+</body>
+
+
+
+</html>

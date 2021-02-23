@@ -1,0 +1,66 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Brown Spot</title>
+        <style>
+            article{
+            display:flex;
+            flex-flow:row wrap;
+            justify-content:center;
+            margin:0px 5px;
+            }
+            body{
+            color:ivory;
+            font-size:22px;
+            }
+            .s1{
+                width:40%;
+                 }
+
+        </style>
+</head>
+<body style="background-image:url({% static 'images/bg1.jpg' %})">
+<h1 style="text-align: center">Brown Spot</h1>
+<article>
+<section class="s1">
+<img src="{% static 'images/rice/brs.jpg' %}"  width="300" height="350">
+</section>
+<section class="s1" >
+    <h2 style="text-align: left; color:lightgreen">Introduction</h2>
+    <p>Brown spot is caused by the fungus Cochliobolus miyabeanus. Also called Helminthosporium leaf spot, it is one of the most prevalent rice diseases in Louisiana. When C. miyabeanus attacks the rice plants at emergence, the resulting seedling blight causes sparse or inadequate stands and weakened plants</p>
+
+    <h2 style="text-align: left; color:lightgreen">Symptoms</h2>
+    <ul >
+        <li>Check for lesions</li>
+        <li>Infected seedlings have small, circular, yellow brown or brown lesions that may girdle the coleoptile and distort primary and secondary leaves.</li>
+        <li>Starting at tillering stage, lesions can be observed on the leaves. They are initially small, circular, and dark brown to purple-brown.</li>
+        <li>Fully developed lesions are circular to oval with a light brown to gray center, surrounded by a reddish brown margin caused by the toxin produced by the fungi.</li>
+        <li>On susceptible varieties, lesions are 5−14 mm long which can cause leaves to wilt. On resistant varieties, the lesions are brown and pinhead-sized.</li>
+        <li>Lesions on leaf sheaths are similar to those on the leaves. Infected glumes and panicle branches have dark brown to black oval spots or discoloration on the entire surface.</li>
+    </ul>
+    <h2 style="text-align: left; color:red">Control Measures and Nutrient recommendation</h2>
+    <ul >
+        <li>Improving soil fertility is the first step in managing brown spot. To do this:</li>
+            <ul>
+                <li>monitor soil nutrients regularly</li>
+                <li>apply required fertilizers</li>
+                <li>for soils that are low in silicon, apply calcium silicate slag before planting</li>
+            </ul>
+        <li>Fertilizers, however, can be costly and may take many cropping seasons before becoming effective. More economical management options include:</li>
+        <li>Use resistant varieties.</li>
+        <li>Contact your local agriculture office for up-to-date lists of varieties available.</li>
+        <li>Use fungicides <b>(e.g., iprodione, propiconazole, azoxystrobin, trifloxystrobin, and carbendazim)</b> as seed treatments.</li>
+        <li>Treat seeds with hot water (53−54°C) for 10−12 minutes before planting, to control primary infection at the seedling stage.</li>
+        <li> To increase effectiveness of treatment, pre-soak seeds in cold water for eight hours.</li>
+
+    </ul>
+
+</section>
+</article>
+</body>
+
+
+
+</html>

@@ -1,0 +1,58 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Cadang cadang</title>
+        <style>
+            article{
+            display:flex;
+            flex-flow:row wrap;
+            justify-content:center;
+            margin:0px 5px;
+            }
+            body{
+            color:ivory;
+            font-size:22px;
+            }
+            .s1{
+                width:40%;
+                 }
+
+        </style>
+</head>
+<body style="background-image:url({% static 'images/bg1.jpg' %})">
+<h1 style="text-align: center">Cadang Cadang</h1>
+<article>
+<section class="s1">
+<img src="{% static 'images/coconut/cc.jpg' %}"  width="300" height="350">
+</section>
+<section class="s1" >
+    <h2 style="text-align: left; color:lightgreen">Introduction</h2>
+    <p>Cadang-cadang is a disease caused by Coconut cadang-cadang viroid (CCCVd), a lethal viroid of coconut (Cocos nucifera), anahaw (Saribus rotundifolius) buri (Corypha utan), and African oil palm (Elaeis guineensis). The name cadang-cadang comes from the word gadang-gadang that means dying in Bicol.</p>
+
+    <h2 style="text-align: left; color:lightgreen">Symptoms</h2>
+    <ul >
+        <li>1-2 years after infection; no leaf symptoms, but newly developing nuts become more rounded and show equatorial scarifications.</li>
+        <li>Chlorotic, non-necrotic, 'water-soaked' leaf spots appear; more nuts rounded and scarified; inflorescence stunted with necrotic tips, loss of some male florets.</li>
+        <li> Leaf spots enlarge; fewer nuts produced, new inflorescence stunted and sterile; fibrous tissue remains attached to petioles as 'winging'.</li>
+        <li>Production of spathes, inflorescence and nuts declines, then ceases; numerous leaf spots.</li>
+        <li>Fronds decline in size and number and leaflets become brittle; leaf spots coalesce to give general chlorotic appearance; crown size reduced; stem tapering; death of palm.</li>
+        <li>Symptoms can resemble physiological changes due to poor nutrition and water stress in the field, typhoon damage, and sterility.</li>
+        <li> Leaf spots resemble insect feeding damage and microbial infection.</li>
+    </ul>
+    <h2 style="text-align: left; color:red">Control Measures and Nutrient recommendation</h2>
+    <ul >
+        <li>Exclusion is the only method considered to be effective in controlling the spread of CCCVd. </li>
+        <li>Cut down and burn affected trees; do this as soon as the disease is seen.</li>
+        <li>Certification of origin from a disease-free area is the principal method currently used </li>
+
+    </ul>
+
+</section>
+</article>
+</body>
+
+
+
+</html>

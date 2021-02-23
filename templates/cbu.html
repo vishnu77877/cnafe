@@ -1,0 +1,56 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Common Bunt</title>
+        <style>
+            article{
+            display:flex;
+            flex-flow:row wrap;
+            justify-content:center;
+            margin:0px 5px;
+            }
+            body{
+            color:ivory;
+            font-size:22px;
+            }
+            .s1{
+                width:40%;
+                 }
+
+        </style>
+</head>
+<body style="background-image:url({% static 'images/bg1.jpg' %})">
+<h1 style="text-align: center">Common Bunt</h1>
+<article>
+<section class="s1">
+<img src="{% static 'images/wheat/cbu.jpg' %}"  width="300" height="350">
+</section>
+<section class="s1" >
+    <h2 style="text-align: left; color:lightgreen">Introduction</h2>
+    <p>Common bunt is favored when infected seed is planted into cool (<68°F), moist soil. While spring wheat can be infected, common bunt usually occurs in fall planted wheat, when the environment is most favorable for infection. Snow cover is not required for the fungi to infect seedlings.</p>
+
+    <h2 style="text-align: left; color:lightgreen">Symptoms</h2>
+    <ul >
+        <li> Infected plants are difficult to identify prior to harvest but may be slightly stunted.</li>
+        <li> At maturity, infected heads may be darker coloured with the glumes containing the ‘bunt balls’ spread apart more than on healthy heads.</li>
+        <li> Infected kernels are greyish-brown. When the fragile seed coat is crushed or broken, the soot-like spore mass with its characteristic stinking fishy odour is revealed.</li>
+        <li> Bunt spores can survive in soil for at least one year and on seed for several years.</li>
+        </ul>
+    <h2 style="text-align: left; color:red">Control Measures and Nutrient recommendation</h2>
+    <ul>
+        <li>Seed treatments with appropriate fungicides will provide good control. Also rotate crops and plant resistant varieties. Contact local advisers if infection occurs.</li>
+        <li>Early planting when soil temperatures are warm and unfavorable for infection can provide partial control of common bunt.  However, planting early increases the risk of other diseases such as wheat streak mosaic virus and barley yellow dwarf</li>
+        <li>Avoid using farm-saved grain from previous crops as seed for the next crop.</li>
+        <li>There are no current wheat cultivars with good resistance to common bunt.</li>
+
+    </ul>
+
+</section>
+</article>
+</body>
+
+
+
+</html>

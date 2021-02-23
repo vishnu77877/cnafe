@@ -1,0 +1,129 @@
+
+{% load static %}
+
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Select Disease</title>
+</head>
+<style>
+    .inline-block {
+   display: inline-block;
+   padding: 40 40;
+   position: relative;
+  text-align: center;
+  color: white;
+}
+.bottom-left {
+  position: absolute;
+  bottom: 15px;
+  left: 45px;
+}
+
+a{
+color:white;
+}
+
+</style>
+<body style="background-image:url({% static 'images/bg1.jpg' %})">
+
+
+    <h1 style="color:White">Select the disease found in your crop</h1>
+
+    <br><br><br>
+    <div id="banner">
+        <div class="inline-block">
+            <a href="blb">
+            <img src ="{% static 'images/rice/blb.jpeg' %}" height="250" width="250" >
+            <div class="bottom-left"><h1>Bacterial Blight</h1></div>
+            </a>
+        </div>
+
+        <div class="inline-block">
+            <a href="bnn">
+                <img src ="{% static 'images/rice/bnn.jpg' %}" height="250" width="250" >
+            <div class="bottom-left"><h1>Blast (node & neck)</h1></div>
+
+            </a>
+        </div>
+
+
+        <div class="inline-block">
+            <a href="brs">
+            <img src ="{% static 'images/rice/brs.jpg' %}" height="250" width="250">
+            <div class="bottom-left"><h1>Brown Spot</h1></div>
+            </a>
+        </div>
+
+        <div class="inline-block">
+            <a href="fs">
+            <img src ="{% static 'images/rice/fs.jpg' %}" height="250" width="250">
+            <div class="bottom-left"><h1>False Smut</h1></div>
+            </a>
+        </div>
+
+        <div class="inline-block">
+            <a href="rb">
+            <img src ="{% static 'images/rice/rb.jpg' %}" height="250" width="250">
+            <div class="bottom-left"><h1>Rice Blast</h1></div>
+            </a>
+        </div>
+
+        <div class="inline-block">
+            <a href="rgs">
+            <img src ="{% static 'images/rice/rgs.jpg' %}" height="250" width="250" >
+            <div class="bottom-left"><h1>Rice Grass Stunt</h1></div>
+            </a>
+        </div>
+
+        <div class="inline-block">
+            <a href="sb">
+                <img src ="{% static 'images/rice/sb.jpg' %}" height="250" width="250" >
+            <div class="bottom-left"><h1>Sheath Blight</h1></div>
+
+            </a>
+        </div>
+
+
+        <div class="inline-block">
+            <a href="rtbv">
+            <img src ="{% static 'images/rice/rtbv.jpg' %}" height="250" width="250">
+            <div class="bottom-left"><h1>RTBV</h1></div>
+            </a>
+        </div>
+
+        <div class="inline-block">
+            <a href="lhph">
+            <img src ="{% static 'images/rice/lhph.jpg' %}" height="250" width="250">
+            <div class="bottom-left"><h1>Leafhoppers & Planthoppers</h1></div>
+            </a>
+        </div>
+
+        <div class="inline-block">
+            <a href="rbu">
+            <img src ="{% static 'images/rice/rbu.jpg' %}" height="250" width="250">
+            <div class="bottom-left"><h1 style="color: black">Rice Bug</h1></div>
+            </a>
+        </div>
+
+        <div class="inline-block">
+            <a href="sbo">
+            <img src ="{% static 'images/rice/sbo.jpg' %}" height="250" width="250">
+            <div class="bottom-left"><h1>Stem Borers</h1></div>
+            </a>
+        </div>
+
+        <div class="inline-block">
+            <a href="rgm">
+            <img src ="{% static 'images/rice/rgm.jpg' %}" height="250" width="250">
+            <div class="bottom-left"><h1>Rice Gall Midge</h1></div>
+            </a>
+        </div>
+
+    </div>
+
+</body>
+
+</html>

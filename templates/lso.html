@@ -1,0 +1,55 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Leaf Spots On</title>
+        <style>
+            article{
+            display:flex;
+            flex-flow:row wrap;
+            justify-content:center;
+            margin:0px 5px;
+            }
+            body{
+            color:ivory;
+            font-size:22px;
+            }
+            .s1{
+                width:40%;
+                 }
+
+        </style>
+</head>
+<body style="background-image:url({% static 'images/bg1.jpg' %})">
+<h1 style="text-align: center">Leaf Spots On</h1>
+<article>
+<section class="s1">
+<img src="{% static 'images/coconut/lso.jpg' %}"  width="300" height="350">
+</section>
+<section class="s1" >
+    <h2 style="text-align: left; color:lightgreen">Introduction</h2>
+    <p> Leaf spots of coconut caused by Bipolaris incurvata begin as tiny water soaked flecks. These expand into larger, tan to brown spots which are circular to oval with a darker brown border (</p>
+
+    <h2 style="text-align: left; color:lightgreen">Symptoms</h2>
+    <ul >
+        <li>Brown leaf spot: Oval spots develop on the upper surface of older leaves, up to 10 mm long and 4 mm wide, with grey centres surrounded by relatively wide dark brown margins. On the lower surface, the margins of the spots are less distinct, but it is here that black powdery spore masses develop. The spores are very small and round, and can only be seen with a microscope.</li>
+        <li>Grey leaf spot : The spots are up to 15 mm long, slightly larger than those of brown leaf spot, grey with a thin dark brown border. Sometimes, the spots join together and are surrounded by yellow haloes. Fungal fruiting structures are visible as tiny black dots within the spots, especially on the upper surface of the leaves.</li>
+        <li>Rain and wind spread the spores of both these leaf spot fungi, so the diseases are more common during wet weather.</li>
+
+    </ul>
+    <h2 style="text-align: left; color:red">Control Measures and Nutrient recommendation</h2>
+    <ul >
+        <li>CULTURAL CONTROL : The diseases occur on older leaves and are unlikely to reduce yields. Occasionally, they can be severe during long periods of wet weather, and/or where palms are growing in nutritionally poor soil. If control measures are warranted, improve nutrition and growing conditions. If spots occur in nurseries, and these are under shade, decrease shade levels.</li>
+        <li>RESISTANT VARIETIES : Malayan Dwarf and its hybrids may be more susceptible to brown leaf spot, but no studies have been carried out in Pacific island countries.</li>
+        <li>CHEMICAL CONTROL : Fungicides are unlikely to have any impact on these diseases given the minor damage they cause, the difficulty in applying them, their cost and their use is not recommended.</li>
+
+    </ul>
+
+</section>
+</article>
+</body>
+
+
+
+</html>

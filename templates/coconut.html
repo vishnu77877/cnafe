@@ -1,0 +1,115 @@
+
+{% load static %}
+
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Select Disease</title>
+</head>
+<style>
+    .inline-block {
+   display: inline-block;
+   padding: 40 40;
+   position: relative;
+  text-align: center;
+  color: white;
+}
+.bottom-left {
+  position: absolute;
+  bottom: 15px;
+  left: 45px;
+}
+
+a{
+color:white;
+}
+
+</style>
+<body style="background-image:url({% static 'images/bg1.jpg' %})">
+
+
+    <h1 style="color:White">Select the disease found in your crop</h1>
+
+    <br><br><br>
+    <div id="banner">
+        <div class="inline-block">
+            <a href="bsr">
+            <img src ="{% static 'images/coconut/bsr.jpg' %}" height="250" width="250" >
+            <div class="bottom-left"><h1>Basal Stem Rot</h1></div>
+            </a>
+        </div>
+
+        <div class="inline-block">
+            <a href="brnf">
+                <img src ="{% static 'images/coconut/brnf.jpg' %}" height="250" width="250" >
+            <div class="bottom-left"><h1>Bud rot & Nutfall</h1></div>
+
+            </a>
+        </div>
+
+
+        <div class="inline-block">
+            <a href="cc">
+            <img src ="{% static 'images/coconut/cc.jpg' %}" height="250" width="250">
+            <div class="bottom-left"><h1>Cadang Cadang</h1></div>
+            </a>
+        </div>
+
+        <div class="inline-block">
+            <a href="gb">
+            <img src ="{% static 'images/coconut/gb.jpg' %}" height="250" width="250">
+            <div class="bottom-left"><h1>Grey Blight</h1></div>
+            </a>
+        </div>
+
+        <div class="inline-block">
+            <a href="lr">
+            <img src ="{% static 'images/coconut/lr.jpg' %}" height="250" width="250">
+            <div class="bottom-left"><h1>Leaf Rot</h1></div>
+            </a>
+        </div>
+
+        <div class="inline-block">
+            <a href="lso">
+            <img src ="{% static 'images/coconut/lso.jpg' %}" height="250" width="250" >
+            <div class="bottom-left"><h1>Leaf Spots On</h1></div>
+            </a>
+        </div>
+
+        <div class="inline-block">
+            <a href="ly">
+                <img src ="{% static 'images/coconut/ly.jpg' %}" height="250" width="250" >
+            <div class="bottom-left"><h1>Lethal Yellowing</h1></div>
+
+            </a>
+        </div>
+
+
+        <div class="inline-block">
+            <a href="ttr">
+            <img src ="{% static 'images/coconut/ttr.jpg' %}" height="250" width="250">
+            <div class="bottom-left"><h1>Thielaviopsis Trunk Rot-á</h1></div>
+            </a>
+        </div>
+
+        <div class="inline-block">
+            <a href="clr">
+            <img src ="{% static 'images/coconut/clr.jpg' %}" height="250" width="250">
+            <div class="bottom-left"><h1>Coconut LeafRoller</h1></div>
+            </a>
+        </div>
+
+        <div class="inline-block">
+            <a href="ecm">
+            <img src ="{% static 'images/coconut/ecm.jpg' %}" height="250" width="250">
+            <div class="bottom-left"><h2>Eriophyid coconut mite</h2></div>
+            </a>
+        </div>
+
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,129 @@
+
+{% load static %}
+
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Select Disease</title>
+</head>
+<style>
+    .inline-block {
+   display: inline-block;
+   padding: 40 40;
+   position: relative;
+  text-align: center;
+  color: white;
+}
+.bottom-left {
+  position: absolute;
+  bottom: 15px;
+  left: 45px;
+}
+
+a{
+color:white;
+}
+
+</style>
+<body style="background-image:url({% static 'images/bg1.jpg' %})">
+
+
+    <h1 style="color:White">Select the disease found in your crop</h1>
+
+    <br><br><br>
+    <div id="banner">
+        <div class="inline-block">
+            <a href="bls">
+            <img src ="{% static 'images/wheat/bls.jpg' %}" height="250" width="250" >
+            <div class="bottom-left"><h1>Bacterial Leaf Streak</h1></div>
+            </a>
+        </div>
+
+        <div class="inline-block">
+            <a href="bydv">
+                <img src ="{% static 'images/wheat/bydy.jpg' %}" height="250" width="250" >
+            <div class="bottom-left"><h1>BYDV</h1></div>
+
+            </a>
+        </div>
+
+
+        <div class="inline-block">
+            <a href="cbu">
+            <img src ="{% static 'images/wheat/cbu.jpg' %}" height="250" width="250">
+            <div class="bottom-left"><h1>Common Bunt</h1></div>
+            </a>
+        </div>
+
+        <div class="inline-block">
+            <a href="ed">
+            <img src ="{% static 'images/wheat/ed.jpg' %}" height="250" width="250">
+            <div class="bottom-left"><h1>Ergot</h1></div>
+            </a>
+        </div>
+
+        <div class="inline-block">
+            <a href="es">
+            <img src ="{% static 'images/wheat/es.jpg' %}" height="250" width="250">
+            <div class="bottom-left"><h1>Eyespot</h1></div>
+            </a>
+        </div>
+
+        <div class="inline-block">
+            <a href="fhb">
+            <img src ="{% static 'images/wheat/fhb.jpg' %}" height="250" width="250" >
+            <div class="bottom-left"><h1>Fusarium head Blight</h1></div>
+            </a>
+        </div>
+
+        <div class="inline-block">
+            <a href="pm">
+                <img src ="{% static 'images/wheat/pm.jpg' %}" height="250" width="250" >
+            <div class="bottom-left"><h1>Powdery Mildew</h1></div>
+
+            </a>
+        </div>
+
+
+        <div class="inline-block">
+            <a href="lru">
+            <img src ="{% static 'images/wheat/lru.jpg' %}" height="250" width="250">
+            <div class="bottom-left"><h1>Leaf Rust</h1></div>
+            </a>
+        </div>
+
+        <div class="inline-block">
+            <a href="aph">
+            <img src ="{% static 'images/wheat/aph.jpg' %}" height="250" width="250">
+            <div class="bottom-left"><h1>Aphids</h1></div>
+            </a>
+        </div>
+
+        <div class="inline-block">
+            <a href="aw">
+            <img src ="{% static 'images/wheat/aw.jpg' %}" height="250" width="250">
+            <div class="bottom-left"><h1>Army Worms</h1></div>
+            </a>
+        </div>
+
+        <div class="inline-block">
+            <a href="sbu">
+            <img src ="{% static 'images/wheat/sbu.jpg' %}" height="250" width="250">
+            <div class="bottom-left"><h1>Stink Bugs</h1></div>
+            </a>
+        </div>
+
+        <div class="inline-block">
+            <a href="ww">
+            <img src ="{% static 'images/wheat/ww.jpg' %}" height="250" width="250">
+            <div class="bottom-left"><h1>Wire Worms</h1></div>
+            </a>
+        </div>
+
+    </div>
+
+</body>
+
+</html>

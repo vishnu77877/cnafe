@@ -1,0 +1,63 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Coconut LeafRoller</title>
+        <style>
+            article{
+            display:flex;
+            flex-flow:row wrap;
+            justify-content:center;
+            margin:0px 5px;
+            }
+            body{
+            color:ivory;
+            font-size:22px;
+            }
+            .s1{
+                width:40%;
+                 }
+
+        </style>
+</head>
+<body style="background-image:url({% static 'images/bg1.jpg' %})">
+<h1 style="text-align: center">Coconut LeafRoller</h1>
+<article>
+<section class="s1">
+<img src="{% static 'images/coconut/clr.jpg' %}"  width="300" height="350">
+    <p>Coconut leafroller</p>
+<img src="{% static 'images/coconut/clr1.jpg' %}"  width="300" height="350">
+    <p>Coconut Leafroller Larvae</p>
+</section>
+<section class="s1" >
+    <h2 style="text-align: left; color:lightgreen">Introduction</h2>
+    <p>Leafrollers are small caterpillars, reaching about an inch (2.5 cm.) in length, often with dark heads and bodies in colors ranging from green to brown. They feed inside nests made from leaves of their host plants, rolled together and tied with silk. Once inside their leaf nests, leafrollers chew holes through the tissue, sometimes adding more leaves to the nest to keep themselves protected from predators.</p>
+
+    <h2 style="text-align: left; color:lightgreen">Symptoms</h2>
+    <ul >
+        <li>The larvae feeds on under surface of leaves.</li>
+        <li> Usually they found protected by silken web.</li>
+        <li> Initially they feed on the lower epidermis leaving the upper epidermis intact.</li>
+        <li> The larvae often fold two sides of leaflets by a silken thread and feed inside.</li>
+        <li> The later stage larvae feeds on both upper and lower epidermis of leaves.</li>
+        <li> Severe infestation leads to skeletonization of fronds.</li>
+
+    </ul>
+    <h2 style="text-align: left; color:red">Control Measures and Nutrient recommendation</h2>
+    <ul >
+        <li>Encourage natural enemies in the orchard.</li>
+        <li>A few leafrollers are nothing to worry about; you can easily cut the few damaged leaves from your plant and toss the caterpillars into a bucket of soapy water.</li>
+        <li>Carefully pick through infested plants and those nearby to ensure you’ve gotten all the caterpillars, and check back weekly. Leafrollers don’t hatch all at once, especially if more than one species is present.</li>
+        <li><b>Bacillus thuringiensis </b>works as a stomach poison to feeding caterpillars, and is extremely effective if applied to these pests and their food source while they’re young. </li>
+        <li>It can be difficult to get sprays inside the rolled up nests, but if you can’t simply cut the caterpillars out, this is the next best option if you wish to preserve the natural enemies of the leafrolling caterpillars in your landscape.</li>
+
+    </ul>
+
+</section>
+</article>
+</body>
+
+
+
+</html>

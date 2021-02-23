@@ -1,0 +1,59 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>BYDV</title>
+        <style>
+            article{
+            display:flex;
+            flex-flow:row wrap;
+            justify-content:center;
+            margin:0px 5px;
+            }
+            body{
+            color:ivory;
+            font-size:22px;
+            }
+            .s1{
+                width:40%;
+                 }
+
+        </style>
+</head>
+<body style="background-image:url({% static 'images/bg1.jpg' %})">
+<h1 style="text-align: center">Barley yellow dwarf</h1>
+<article>
+<section class="s1">
+<img src="{% static 'images/wheat/bydy.jpg' %}"  width="300" height="350">
+</section>
+<section class="s1" >
+    <h2 style="text-align: left; color:lightgreen">Introduction</h2>
+    <p>Barley yellow dwarf is a plant disease caused by the barley yellow dwarf virus, and is the most widely distributed viral disease of cereals. It affects the economically important crop species barley, oats, wheat, maize, triticale and rice.</p>
+
+    <h2 style="text-align: left; color:lightgreen">Symptoms</h2>
+    <ul >
+        <li>Symptoms of barley yellow dwarf are highly variable and can be confused with those of wheat streak mosaic, nutrient deficiency, root and crown diseases, and environmental stress.</li>
+        <li>Barley yellow dwarf is tentatively diagnosed from the presence of aphid vectors and the occurrence of yellowed, stunted plants grouped singly or in small patches among normal plants.</li>
+        <li> Leaf discoloration in shades of yellow, red or purple from the tip down and from the margin to midrib is typical.</li>
+        <li> In wheat symptoms start to become obvious at about the jointing stage of growth.</li>
+        <li> Barley yellow dwarf does not produce a distinct mosaic pattern as do wheat streak mosaic or soil-borne mosaic. The pale yellowing of older leaf tips is typical.</li>
+        <li> During cool temperatures the tips can sometimes become a reddish-purple.</li>
+        <li> In years with high aphid activity the patches of BYDV-infected plants can become quite large in some fields.</li>
+    </ul>
+    <h2 style="text-align: left; color:red">Control Measures and Nutrient recommendation</h2>
+    <ul>
+        <li><b>Seeding Dates</b> Delaying fall seeding of wheat until aphid populations decline minimizes the risk of barley yellow dwarf.  Optimum seeding dates for winter wheat have been established for the various growing areas of Nebraska. These can be obtained from your local extension office. Avoid planting wheat earlier than the recommended date for your area.</li>
+        <li><b>Genetic Resistance</b> An important strategy to manage BYDV is to plant resistant or tolerant cultivars.  High levels of resistance or tolerance are not available in wheat; however, commercial cultivars vary in their susceptibility to barley yellow dwarf.  A good strategy is to grow diverse varieties to minimize the potential that a single variety will be severely affected by the disease.</li>
+        <li><b>Cultural Practices.</b> Cultural methods of managing barley yellow dwarf include controlling grassy weeds, including volunteer cereals, within and near wheat production fields. In addition, small grains should not be planted in midsummer as cover or companion crops in wheat-producing areas. These practices will minimize the virus and vector reservoirs in wheat growing areas.</li>
+        <li><b>Chemical/Biological Control</b>Fungicides have no effect on barley yellow dwarf and should not be applied to control the disease. Seed treatments of imidacloprid (Gaucho and other products) or thiamethoxam (Cruiser) can reduce aphid populations through the fall and, therefore, reduce primary infections. However, insecticide seed treatments to control aphids may not be economical because of the sporadic nature of aphid infestations. Foliar insecticide control of aphids in the fall can reduce the incidence of barley yellow infections, but may not be economical if aphids escape the treatments or migrate in from untreated areas.</li>
+
+    </ul>
+
+</section>
+</article>
+</body>
+
+
+
+</html>

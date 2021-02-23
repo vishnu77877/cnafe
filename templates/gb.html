@@ -1,0 +1,61 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Grey Blight</title>
+        <style>
+            article{
+            display:flex;
+            flex-flow:row wrap;
+            justify-content:center;
+            margin:0px 5px;
+            }
+            body{
+            color:ivory;
+            font-size:22px;
+            }
+            .s1{
+                width:40%;
+                 }
+
+        </style>
+</head>
+<body style="background-image:url({% static 'images/bg1.jpg' %})">
+<h1 style="text-align: center">Grey Blight</h1>
+<article>
+<section class="s1">
+<img src="{% static 'images/coconut/gb.jpg' %}"  width="300" height="350">
+</section>
+<section class="s1" >
+    <h2 style="text-align: left; color:lightgreen">Introduction</h2>
+    <p>Grey leaf blight disease caused by Pestalotiopsis palmarum is of common
+occurrence in all coconut growing areas throughout
+the world. The disease causes serious damage in
+nursery and in adult palms. The palms affected with
+grey blight flowered relatively late than healthy ones</p>
+
+    <h2 style="text-align: left; color:lightgreen">Symptoms</h2>
+    <ul >
+        <li>The initial symptom appears as yellowish brown spots with grey brown margins, usually they are oval in shape and measures approximately 1-5 cm long.</li>
+        <li>As the disease advances the spots coalesce to form larger irregular necrotic patches with greyish white center.</li>
+        <li>The symptoms are noticed in leaflets of the outer whorl and give a blighted appearance.</li>
+        <li>In advanced stages the tips and margins of the leaf lets dry and shrivel giving a burnt appearance.</li>
+
+    </ul>
+    <h2 style="text-align: left; color:red">Control Measures and Nutrient recommendation</h2>
+    <ul >
+        <li>Balanced nutrient management.</li>
+        <li>Remove the severely affected older leaves and burn.</li>
+        <li>Spray the trees with <b>1% Bordeaux mixture or propiconazole (Tilt) 0.3%</b>.</li>
+        <li>Regular application of <b>potassium chloride</b> was reported to reduce the disease incidence.</li>
+
+    </ul>
+
+</section>
+</article>
+</body>
+
+
+
+</html>
